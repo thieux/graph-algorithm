@@ -57,15 +57,15 @@ public class Graph {
     }
 
     public Adjacencies adjacencies(int v) {
-        return new ArrayAdjencies(v);
+        return new ArrayAdjacencies(v);
     }
 
-    private class ArrayAdjencies implements Adjacencies {
+    private class ArrayAdjacencies implements Adjacencies {
 
         private int i;
         private int v;
 
-        ArrayAdjencies(int v) {
+        ArrayAdjacencies(int v) {
             this.v = v;
             i = -1;
         }
