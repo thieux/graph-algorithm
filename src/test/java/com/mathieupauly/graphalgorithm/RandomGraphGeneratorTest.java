@@ -1,8 +1,5 @@
 package com.mathieupauly.graphalgorithm;
 
-import com.mathieupauly.graphalgorithm.Graph;
-import com.mathieupauly.graphalgorithm.GraphIo;
-import com.mathieupauly.graphalgorithm.RandomGraphGenerator;
 import org.junit.Test;
 
 public class RandomGraphGeneratorTest {
